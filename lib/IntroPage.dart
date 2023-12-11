@@ -11,7 +11,7 @@ class IntroPage extends StatelessWidget {
         children: [
           Padding(
               padding: const EdgeInsets.only(left: 80.0, right: 80, top: 160, bottom: 80),
-              child: Image.asset('assets/whyfish.jpg', width: 200,),
+              child: Image.asset('assets/book.png', width: 200,),
           ),
           Padding(
             padding: const EdgeInsets.all(24.0),
@@ -34,7 +34,7 @@ class IntroPage extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12),
               ),
               padding: const EdgeInsets.all(24),
-              child: const Text("Get Stared", style: TextStyle(color: Colors.white),),
+              child: const Text("Get Stared", style: TextStyle(color: Colors.white, fontSize: 20),),
             ),
           ),
         ],
