@@ -41,7 +41,13 @@ class MyBookHomePage extends StatelessWidget {
                 fontSize: 36, fontWeight: FontWeight.bold,
               ),),
             ),
-            SizedBox(height: 20,),
+            SizedBox(height: 8,),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: TextField(decoration: InputDecoration(
+                labelText: 'Search',
+              ),),
+            ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 8.0),
               child: Divider(),
