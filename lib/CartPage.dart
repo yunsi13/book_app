@@ -50,7 +50,7 @@ class CartPage extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(36.0),
                 child: Container(
-                  decoration: BoxDecoration(color: Colors.blue,
+                  decoration: BoxDecoration(color: Colors.blue[700],
                   borderRadius: BorderRadius.circular(8)),
                   padding: EdgeInsets.all(24),
                   child: Row(

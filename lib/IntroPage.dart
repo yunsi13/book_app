@@ -30,11 +30,11 @@ class IntroPage extends StatelessWidget {
             ),
             child: Container(
               decoration: BoxDecoration(
-                color: Colors.deepPurple,
+                color: Colors.blue[700],
                 borderRadius: BorderRadius.circular(12),
               ),
               padding: const EdgeInsets.all(24),
-              child: const Text("Get Stared", style: TextStyle(color: Colors.white, fontSize: 20),),
+              child: const Text("시작하기", style: TextStyle(color: Colors.white, fontSize: 20),),
             ),
           ),
         ],
